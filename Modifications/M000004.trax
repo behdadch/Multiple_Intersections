@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<network version="602" vissimVersion="11.00 - 03 [74735]">
+	<cameraPositions>
+		<modified>
+			<cameraPosition no="3">
+				<coord>
+					<modified x="444.20836411600573" y="-146.63600748651504" z="97.611186186673336"/>
+				</coord>
+			</cameraPosition>
+		</modified>
+	</cameraPositions>
+	<simulation>
+		<modified randSeed="51"/>
+	</simulation>
+	<timeIntervalSets>
+		<modified>
+			<timeIntervalSet no="VEHICLEINPUT">
+				<timeInts>
+					<deleted>
+						<timeInterval start="30"/>
+					</deleted>
+					<added>
+						<timeInterval start="35"/>
+					</added>
+				</timeInts>
+			</timeIntervalSet>
+		</modified>
+	</timeIntervalSets>
+	<vehicleInputs>
+		<modified>
+			<vehicleInput no="1">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="2" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="2">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="1" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="3">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="1" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="4">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="1" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="5">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="1" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="6">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="1" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="7">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="1" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+			<vehicleInput no="8">
+				<timeIntVehVols>
+					<added>
+						<timeIntervalVehVolume cont="false" timeInt="1 35000" vehComp="1" volType="STOCHASTIC" volume="0"/>
+					</added>
+					<modified>
+						<timeIntervalVehVolume timeInt="1 0" volType="STOCHASTIC"/>
+					</modified>
+				</timeIntVehVols>
+			</vehicleInput>
+		</modified>
+	</vehicleInputs>
+	<vehicleTypes>
+		<modified>
+			<vehicleType extDriver="true" no="621"/>
+		</modified>
+	</vehicleTypes>
+</network>
